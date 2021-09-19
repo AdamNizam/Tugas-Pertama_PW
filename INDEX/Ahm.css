@@ -1,0 +1,153 @@
+/*body{
+    line-height: 1;
+}
+ol,ul{
+    list-style: none;
+}
+blockquote,q{
+    quotes: none;
+}
+blockquote::before blockquote::after, q::before, q:after{
+    content: '';
+    content: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*style CSS */
+body{
+    font: 16px/28px arial, sans-serif;
+    background-image: url(img/bjp.jpg);
+    background-size: cover;
+    color: #333;
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    border-bottom: 5px solid rgb(250, 252, 164);
+    border-top: 5px solid rgb(250, 252, 164);
+    border-left: 5px solid rgb(250, 252, 164);
+    border-right: 5px solid rgb(250, 252, 164);
+}
+.header{
+    padding: 30px;
+}
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+ul{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+ul li{
+	position: relative;
+	list-style: none;
+	width: 80px;
+	height: 80px;
+	margin: 0 50px;
+	transform: rotate(-30deg) skew(25deg);
+	background: #ccc;
+}
+ul li span{
+	position: absolute;
+	top: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background: #e0ffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	font-size: 30px;
+	transition: .5s
+}
+ul li:hover span{
+	box-shadow: -1px 1px 1px rgba(0,0,0,.5)
+}
+ul li:hover span:nth-child(4){
+	transform: translate(30px,-30px);
+	opacity: 1;
+}
+ul li:hover span:nth-child(3){
+	transform: translate(20px,-20px);
+	opacity: .8;
+}
+ul li:hover span:nth-child(2){
+	transform: translate(10px,-10px);
+	opacity: .6;
+}
+ul li:hover span:nth-child(1){
+	transform: translate(0,0);
+    opacity: .4;
+}
+ul li:nth-child(1) span{
+	background: aqua;
+}
+ul li:nth-child(2) span{
+	background: deeppink;
+}
+ul li:nth-child(3) span{
+    background:rgb(226, 4, 255);
+}
+.hero {
+    height: 400px;
+    background-image: url(img/caleb-george-iVXfOilGYHA-unsplash.jpg);
+    background-size: cover;
+    background-position: 0 -150px;
+    border-top: 5px solid rgb(250, 252, 164);
+    border-left: 5px solid rgb(243, 248, 172);
+    border-right: 5px solid rgb(238, 250, 169);
+    border-bottom: 5px solid rgb(252, 250, 169);
+}
+.content h1{
+    margin-left: 75%;
+    margin-top: 50px;
+    font-family: unset;
+    font-size: 30px;
+    color: coral;
+
+}
+.content img{
+    float: right;
+    margin-right: 40px;
+    border-radius: 50%;
+    border-top: 10px solid rgb(248, 25, 181);
+    border-bottom: 10px solid rgb(84, 55, 250);
+    border-left: 10px solid rgb(229, 252, 21);
+    border-right: 10px solid rgb(9, 244, 252);
+}
+.content h2 {
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: -50px;
+    color: coral;
+}
+.content h4{
+    color: coral;
+    margin-left: 20px;
+}
+.content p{
+    font-family: monospace;
+    font-size: 10px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+.Adm strong {
+    font-size: 15px;
+    font-family: inherit;
+}
+.footer {
+    background-color: black;
+}
+.footer .copy {
+    color: whitesmoke;
+    text-align: center;
+}
